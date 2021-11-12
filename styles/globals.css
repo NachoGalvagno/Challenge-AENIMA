@@ -1,16 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+  font-family: Montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.index {
+  background-color: #424242;
+  width: 1366px;
+  height: 768px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imageIndex img{
+  border-radius: 100px;
+}
+
+.textIndex{
+  color: white;
+}
+
+.buttonsIndex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton {
+  background-color: transparent;
+  color: white;
+  margin: 0 18px;
+  border: 1px solid #EBE000;
+  width: 144px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.boton:hover{
+  border: 1px solid blue
 }

@@ -8,8 +8,8 @@ export default function Banner(){
                 <Image src='/Assets/iconos/ic_pin.png' alt='logo' width={12} height={17}></Image>
                 <h1>AMERICA DEL SUR</h1>
             </div>
-            <p className={style.texto}>Lugares maravillosos por</p>
-            <p className={style.texto   }>America del Sur</p>
+            <p className={style.texto1}>Lugares maravillosos por</p>
+            <p className={style.texto2}>America del Sur</p>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 .imagenDeFondo{
-    margin-top: 50px;
+    margin-top: 30px;
     background-image: url('/Assets/img/Banner_mobile');
     height: 607px;
     width: 360px;
@@ -14,6 +14,7 @@
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid white;
+    margin-top: -90px;
 }
 
 .icono h1{
@@ -34,4 +35,11 @@
     color: white;
     margin: 0;
     text-align: left;
+    width: 240px;
+}
+
+.imagenVideo{
+    position: relative;
+    left: -137px;
+    bottom: -225px;
 }

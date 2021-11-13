@@ -10,6 +10,9 @@ export default function Banner(){
             </div>
             <p className={style.texto1}>Lugares maravillosos por</p>
             <p className={style.texto2}>America del Sur</p>
+            <div className={style.imagenVideo}>
+                <Image src='/Assets/iconos/Nav_slider.png' alt='nav-slider' width={87} height={50}></Image>
+            </div>
         </div>
     )
 }

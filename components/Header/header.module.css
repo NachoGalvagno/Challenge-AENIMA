@@ -1,10 +1,14 @@
 .displayHeader{
+    padding: 17px 37px;
     width: 360px;
     height: 50px;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0px 10px 20px #00000029;
+    position: fixed;
+    top: 0;
 }
 
 .navItems{
@@ -15,3 +19,4 @@
     list-style: none;
     padding: 0 10px;
 }
+

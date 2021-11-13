@@ -1,14 +1,15 @@
 import style from "./burgerMenu.module.css"
 import { FaBars } from 'react-icons/fa'; 
+import { IoMdClose } from 'react-icons/io'
 
 import Link from "next/link";
 import { useState } from "react";
 
 export default function BurgerMenu(){
-    const [current,setCurrent] = useState("-1000px");
+    const [current,setCurrent] = useState("none");
     
     const toggleMenu = () =>{
-        setCurrent(current === "-1000px" ? "-20px" : "-1000px");
+        setCurrent(current === "none" ? "block" : "none");
     }
     return(
         <div className={style.burgerMenu}>
@@ -18,20 +19,23 @@ export default function BurgerMenu(){
                         <style jsx>
                             {`
                                 ul{
-                                    width: 250px;
-                                        height: 100vh;
-                                        z-index: 100;
-                                        background-color: white;
-                                        list-style: none;
-                                        color: black;
-                                        padding: 15px;
-                                        position: absolute;
-                                        right: ${current};
-                                        top: 55px;
+                                    width: 217px;
+                                    height: 100vh;
+                                    z-index: 100;
+                                    background-color: white;
+                                    list-style: none;
+                                    color: black;
+                                    padding: 15px;
+                                    position: absolute;
+                                    right: -20px;
+                                    display: ${current};
+                                    top: 0;
                                     transition : all 1s;
+                                    padding-top: 65px;
                                 }
                             `}
                         </style>
+                            <p className={style.crossBtn} onClick={toggleMenu}><IoMdClose/></p>
                             <Link href="#home" passHref>
                                 <li className={style.itemsBurger}>HOME</li> 
                             </Link>

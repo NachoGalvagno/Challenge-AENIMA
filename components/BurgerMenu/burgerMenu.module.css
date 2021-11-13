@@ -1,7 +1,20 @@
 .burgerMenu{
     font-size: 30px;
+    transition: all 0.05s;
 }
 
 .mainList{
     list-style: none;
+}
+
+.itemsBurger{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.crossBtn{
+    position: absolute;
+    top: -24px;
+    right: 57px;
 }

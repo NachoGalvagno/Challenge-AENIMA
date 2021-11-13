@@ -1,0 +1,46 @@
+.cartaTendencia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+    width: 286px;
+}
+
+.cartaTendencia img{
+    border-radius: 10px 10px 0 0;
+}
+
+.textoCarta{
+    height: 134px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.titulo{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.subtitulo{
+    font-size: 13px;
+}
+
+.nuevo{
+    padding: 5px;
+    width: 69px;
+    background-color: #FA6980;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    top: -25px;
+    left: -5px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
+

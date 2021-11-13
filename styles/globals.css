@@ -55,3 +55,7 @@ body {
 .boton:hover{
   border: 1px solid blue
 }
+
+body{
+  width: 360px;
+}

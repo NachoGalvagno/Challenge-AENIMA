@@ -1,3 +1,17 @@
-.etiqueta{
-    color: red;
+.displayHeader{
+    width: 360px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItems{
+    display: none;
+}
+
+.items{
+    list-style: none;
+    padding: 0 10px;
 }

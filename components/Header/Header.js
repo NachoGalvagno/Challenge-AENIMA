@@ -3,7 +3,7 @@ import Image from "next/image"
 import BurgerMenu from "../BurgerMenu/BurgerMenu"
 
 
-export default function Header(){
+export default function Header(){ 
     return(
         <div className={style.displayHeader}>
             <div className={style.logo}>
@@ -18,6 +18,6 @@ export default function Header(){
                 <BurgerMenu/>
             </div>
         </div>
-
+ 
     )
 }

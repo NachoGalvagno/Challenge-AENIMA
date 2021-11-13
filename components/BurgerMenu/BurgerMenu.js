@@ -26,8 +26,7 @@ export default function BurgerMenu(){
                                     list-style: none;
                                     color: black;
                                     padding: 15px;
-                                    position: fixed;
-                                    z-index: 1000;
+                                    position: absolute;
                                     right: -20px;
                                     display: ${current};
                                     top: 0;
@@ -37,7 +36,7 @@ export default function BurgerMenu(){
                             `}
                         </style>
                             <p className={style.crossBtn} onClick={toggleMenu}><IoMdClose/></p>
-                            <Link href="#home" passHref>
+                            <Link href="/mobile" passHref>
                                 <li className={style.itemsBurger}>HOME</li> 
                             </Link>
                             <Link href="#tendencias" passHref>

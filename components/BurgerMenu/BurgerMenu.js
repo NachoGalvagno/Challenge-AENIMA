@@ -26,7 +26,8 @@ export default function BurgerMenu(){
                                     list-style: none;
                                     color: black;
                                     padding: 15px;
-                                    position: absolute;
+                                    position: fixed;
+                                    z-index: 1000;
                                     right: -20px;
                                     display: ${current};
                                     top: 0;

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Banner from '../components/Banner/Banner'
 import Header from '../components/Header/Header'
+import Tendencias from '../components/Tendencias/Tendencias'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <div className="container-mobile">
           <Header/>
           <Banner/>
+          <Tendencias/>
         </div>
       </>
   )

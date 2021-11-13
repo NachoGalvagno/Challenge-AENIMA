@@ -1,0 +1,6 @@
+.imagenDeFondo{
+    margin-top: 50px;
+    background-image: url('/public/Assets/img/Viajes_Hero.jpg');
+    width: 100vw;
+    height: 50vh;
+}

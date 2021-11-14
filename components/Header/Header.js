@@ -1,7 +1,7 @@
 import style from "./header.module.css"
 import Image from "next/image"
 import BurgerMenu from "../BurgerMenu/BurgerMenu"
-
+import Link from "next/link";
 
 export default function Header(){ 
     return(
@@ -11,9 +11,9 @@ export default function Header(){
             </div>
             <div className={style.navBar}>
                 <div className={style.navItems}>
-                    <li className={style.items}>HOME</li>
-                    <li className={style.items}>TENDENCIAS</li>
-                    <li className={style.items}>BLOG</li>
+                    <Link href="/desktop" passHref><li className={style.items}>HOME</li></Link>
+                    <Link href="#tendencias" passHref><li className={style.items}>TENDENCIAS</li></Link>
+                    <Link href="#blog" passHref><li className={style.items}>BLOG</li></Link>
                 </div>
                 <BurgerMenu/>
             </div>

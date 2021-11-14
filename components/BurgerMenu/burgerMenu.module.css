@@ -18,3 +18,9 @@
     top: -24px;
     right: 57px;
 }
+
+@media(min-width: 361px){
+    .burgerBtn{
+        display: none;
+    }
+}

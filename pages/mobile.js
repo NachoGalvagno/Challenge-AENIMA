@@ -15,7 +15,7 @@ export default function Home() {
         </Head>
         <div className="container-mobile">
           <Header/>
-          <Banner/>
+          <Banner/> 
           <Tendencias/>
           <Blog/>
           <Footer/>

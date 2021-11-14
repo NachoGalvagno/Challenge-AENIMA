@@ -45,7 +45,7 @@ export default function CartaBlogDesktop(){
                         return(
                             <div className={style.cartaBlog} style={{
                                 backgroundImage: "url(" + `${carta.url}` + ")",
-                                width: "52%",
+                                width: "720px",
                                 height:"429px",
                                 backgroundRepeat: "no-repeat",
                                 backgroundSize: "cover",
@@ -68,9 +68,9 @@ export default function CartaBlogDesktop(){
                     arrayCartasChicas.map((carta, index)=>{
                         return(
                             <>
-                                <div className={style.cartaBlog} style={{
+                                <div className={style.cartaBlogRight} style={{
                                     backgroundImage: "url(" + `${carta.url}` + ")",
-                                    width: "25%",
+                                    width: "352px",
                                     height:"210px",
                                     backgroundRepeat: "no-repeat",
                                     backgroundSize: "cover",

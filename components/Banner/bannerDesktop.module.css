@@ -60,6 +60,7 @@
 .titulo{
     font-size: 16px;
     color: #FA6980;
+    padding-right: 20px;
 }
 
 .subtitulo{
@@ -75,8 +76,12 @@
 .cuadroPromocion{
     width: 260px;
     height: 157px;
-    background-color: #2A3037;
-    opacity: 50%;
+    background-color: rgba(42, 48, 55, 0.5);
+    border: dashed 1px #EBEBEB;
+    border-radius: 5px;
+    position: relative;
+    left: 350px;
+    top: 120px;
 }
 
 .flex{
@@ -84,6 +89,3 @@
     align-items: center;
 }
 
-.flex img{
-    padding-left: 20px;
-}

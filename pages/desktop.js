@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import BannerDesktop from '../components/Banner/BannerDesktop'
 import HeaderDesktop from '../components/Header/HeaderDesktop'
+import TendenciasDesktop from '../components/Tendencias/TendenciasDesktop'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <div className="container-desktop">
           <HeaderDesktop/>
           <BannerDesktop/>
+          <TendenciasDesktop/>
         </div>
       </>
   )

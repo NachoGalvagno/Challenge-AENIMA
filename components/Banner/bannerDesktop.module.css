@@ -10,7 +10,7 @@
 }
 
 .icono{
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid white;
@@ -54,23 +54,30 @@
 .imagenVideo{
     position: relative;
     left: -590px;
-    bottom: -225px;
+    bottom: -300px;
 }
 
 .titulo{
     font-size: 16px;
     color: #FA6980;
     padding-right: 20px;
+    margin: 5px;
+    font-weight: bold;
 }
 
 .subtitulo{
     font-size: 16px;
     color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 4px;
 }
 
 .texto{
     font-size: 14px;
     color: #FFFFFF;
+    margin: 5px;
+    margin-left: 4px;
 }
 
 .cuadroPromocion{
@@ -80,8 +87,9 @@
     border: dashed 1px #EBEBEB;
     border-radius: 5px;
     position: relative;
-    left: 350px;
+    left: 400px;
     top: 120px;
+    padding: 20px;
 }
 
 .flex{

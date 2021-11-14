@@ -24,5 +24,5 @@ export default function BannerDesktop(){
                 <p className={style.texto}>Forman parte veinte países, ej. España, Francia, etc.</p>
             </div>
         </div>
-    )
-}
+    ) 
+} 

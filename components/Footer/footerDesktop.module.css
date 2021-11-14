@@ -14,10 +14,9 @@
 }
 
 .iconos{
-    display: flex;
-    margin-right: -150px; 
-}
-
-.iconos img{
-    margin-right: 40px 
+    display: flex; 
+    width: 4%;
+    justify-content: space-between;
+    position: relative;
+    right: -150px;
 }

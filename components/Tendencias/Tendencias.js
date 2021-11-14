@@ -10,4 +10,4 @@ export default function Tendencias(){
             <h1 className={style.titulos} id="blog">BLOG</h1>
         </div>
     ) 
-} 
+}  

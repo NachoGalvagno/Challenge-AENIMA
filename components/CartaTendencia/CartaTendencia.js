@@ -10,6 +10,6 @@ export default function CartaTendencia(){
                 <h2 className={style.titulo}>Montañas y magia</h2>
                 <p className={style.subtitulo}>Aquí la descripción para <strong>Montañas y magia</strong></p>
             </div>
-        </div>
+        </div> 
     )
 }

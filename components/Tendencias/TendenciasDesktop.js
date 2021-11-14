@@ -1,12 +1,13 @@
-import CartaTendencia from "../CartaTendencia/CartaTendencia"
-import style from "./tendenciasDesktop.module.css"
+import CartaTendenciaDesktop from "../CartaTendencia/CartaTendenciaDesktop"
+import style from "./tendencias.module.css"
 
-export default function TendenciasDesktop(){
+
+export default function Tendencias(){
     return(
         <div className={style.main}>
             <h1 className={style.titulos} id="tendencias">TENDENCIAS</h1>
-            <CartaTendencia/>   
+            <CartaTendenciaDesktop/>   
             <h1 className={style.titulos} id="blog">BLOG</h1>
         </div>
     ) 
-}
+} 

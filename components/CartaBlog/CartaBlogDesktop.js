@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function CartaBlogDesktop(){
     let arrayCartas = [
         {
-            url : "/Assets/img/puente-small.png",
+            url : "/Assets/img/articulo_big_01.png",
             titulo : 'CIUDAD',
             subtitulo : 'Artículo de puente',
             reloj : 'Hace 2m',
@@ -74,11 +74,10 @@ export default function CartaBlogDesktop(){
                                     height:"210px",
                                     backgroundRepeat: "no-repeat",
                                     backgroundSize: "cover",
-                                    marginBottom: "150px",
                                     }} key={ index }>
                                 </div>
-                                <h1 className={style.subtitulo}>{carta.subtitulo}</h1>
-                                <div className={style.reloj}>
+                                <h1 className={style.subtituloRight}>{carta.subtitulo}</h1>
+                                <div className={style.relojRight}>
                                     <Image src='/Assets/iconos/time.png' alt="reloj" width={16} height={16}></Image>
                                     <p className={style.textoReloj}>{carta.reloj}</p>
                                 </div>

@@ -7,8 +7,8 @@
 
 .titulo{
     position: relative;
-    left: 36px;
-    top: 39px;
+    left: 40px;
+    top: 45px;
     font-size: 16px;
     color: white;
     font-weight: bold;
@@ -17,10 +17,18 @@
 .subtitulo{
     position: relative;
     left: 40px; 
-    top: 280px;
+    top: 255px;
     margin: 0;
     font-size: 22px ;
     color: white;
+}
+
+.texto{
+    color: white;
+    font-size: 16px;
+    position: relative;
+    top: 250px;
+    left: 40px;
 }
 
 .textoReloj{
@@ -31,7 +39,7 @@
 
 .reloj{
     position: relative;
-    top: 280px;
+    top: 250px;
     left: 40px;
     display: flex;
     justify-content: flex-start;
@@ -45,4 +53,34 @@
 
 .displayLeft{
     margin-right: 16px;
+}
+
+.relojRight{
+    position: relative;
+    top: -10px;
+    left: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.subtituloRight{
+        position: relative;
+        left: 5px; 
+        top: 5px;
+        margin: 0;
+        font-size: 22px ;
+        color: black;
+}
+
+.displayRight{
+    margin-top: -85px;
+}
+
+.cartaBlogRight{
+    margin-bottom: 15px;
+}
+
+.displayGeneral{
+    margin-top: -50px;
 }

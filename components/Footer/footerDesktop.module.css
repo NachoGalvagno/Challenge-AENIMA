@@ -1,0 +1,23 @@
+.displayFooter{
+    display: flex;
+    background: #2A3037;
+    width: 100%;
+    height: 97px;
+    margin-top: 45px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.logoFooter{
+    margin-left: -150px;
+}
+
+.iconos{
+    display: flex;
+    margin-right: -150px; 
+}
+
+.iconos img{
+    margin-right: 40px 
+}

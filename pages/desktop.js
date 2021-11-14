@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import BannerDesktop from '../components/Banner/BannerDesktop'
 import CartaBlogDesktop from '../components/CartaBlog/CartaBlogDesktop'
+import FooterDesktop from '../components/Footer/FooterDesktop'
 import HeaderDesktop from '../components/Header/HeaderDesktop'
 import TendenciasDesktop from '../components/Tendencias/TendenciasDesktop'
 
@@ -17,6 +18,7 @@ export default function Home() {
           <BannerDesktop/>
           <TendenciasDesktop/>
           <CartaBlogDesktop/>
+          <FooterDesktop/>
         </div>
       </>
   )

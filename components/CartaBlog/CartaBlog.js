@@ -27,7 +27,7 @@ export default function CartaBlog(){
                         height:"429px",
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",
-                        marginBottom: "50px",
+                        marginBottom: "150px",
                       }} key={ index }>
                         <h1 className={style.titulo}>{carta.titulo}</h1>
                         <h1 className={style.subtitulo}>{carta.subtitulo}</h1>

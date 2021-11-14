@@ -5,13 +5,14 @@
     flex-direction: column;
     border-radius: 10px;
     background-color: white;
-    width: 286px;
-    margin-bottom: 30px;
+    width: 352px;
+    margin: 0 10px;
     box-shadow: 0 3px 6px #00000029;
 }
 
 .cartaTendencia img{
     border-radius: 10px 10px 0 0;
+
 }
 
 .textoCarta{
@@ -23,16 +24,17 @@
 }
 
 .titulo{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     position: relative;
     top: -15px;
+    margin-top: 70px;
 }
 
 .subtitulo{
-    font-size: 13px;
+    font-size: 16px;
     position: relative;
-    top: -30px;
+    top: -40px;
 }
 
 .nuevo{
@@ -43,7 +45,7 @@
     text-align: center;
     border-radius: 5px;
     position: relative;
-    top: -25px;
+    top: 13px;
     left: -5px;
     font-size: 12px;
     font-weight: bold;
@@ -51,5 +53,10 @@
 }
 
 
-
-
+.displayDeCartas{
+    display: flex;
+    width: 1366px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}

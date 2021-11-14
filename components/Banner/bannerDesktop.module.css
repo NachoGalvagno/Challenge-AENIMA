@@ -1,0 +1,89 @@
+.imagenDeFondo{
+    margin-top: 30px;
+    background-image: url('/Assets/img/Viajes_Hero.jpg');
+    height: 730px;
+    width: 1366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-top: -90px;
+}
+
+.icono h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    width: 535px;
+    text-align: left;
+}
+
+.texto1{
+    font-size: 24px;
+    color: white;
+    padding-top: 10px;
+    margin: 0;
+    width: 535px;
+    position: relative;
+    left: -10px;
+}
+
+.texto2{
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    text-align: left;
+    width: 535px;
+    margin-top: 15px;
+    position: relative;
+    left: -10px;
+}
+
+.containerTexto{
+    position: relative;
+    left: -250px;
+}
+
+.imagenVideo{
+    position: relative;
+    left: -590px;
+    bottom: -225px;
+}
+
+.titulo{
+    font-size: 16px;
+    color: #FA6980;
+}
+
+.subtitulo{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.texto{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.cuadroPromocion{
+    width: 260px;
+    height: 157px;
+    background-color: #2A3037;
+    opacity: 50%;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.flex img{
+    padding-left: 20px;
+}

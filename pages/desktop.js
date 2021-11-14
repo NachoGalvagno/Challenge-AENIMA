@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Header from '../components/Header/Header'
-import Banner from '../components/Banner/Banner'
+import BannerDesktop from '../components/Banner/BannerDesktop'
+import HeaderDesktop from '../components/Header/HeaderDesktop'
 
 export default function Home() {
   return (
@@ -11,8 +11,8 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div className="container-desktop">
-          <Header/>
-          <Banner/>
+          <HeaderDesktop/>
+          <BannerDesktop/>
         </div>
       </>
   )

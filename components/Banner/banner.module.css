@@ -17,11 +17,6 @@
     margin-top: -90px;
 }
 
-.icono img{
-    width: 12px;
-    height: 17px;
-}
-
 .icono h1{
     font-size: 24px;
     font-weight: bold;
@@ -43,43 +38,8 @@
     width: 240px;
 }
 
-.textoDesktop{
-    display: none;
-}
-
 .imagenVideo{
     position: relative;
     left: -137px;
     bottom: -225px;
-}
-
-@media(min-width:1365px){
-    .imagenDeFondo{
-        background-image: url('/Assets/img/Viajes_Hero.jpg');
-        width: 1366px;
-    }
-
-    .icono img{
-        width: 24px;
-        height: 34px;
-    }
-
-    .icono h1{
-        font-size: 48px;
-    }
-
-    .texto1{
-        font-size: 24px;
-    }
-
-    .texto2{
-        font-size: 24   px;
-    }
-
-    .textoDesktop{
-        display: flex;
-        color: white;
-        font-size: 16px;
-    }
-
 }

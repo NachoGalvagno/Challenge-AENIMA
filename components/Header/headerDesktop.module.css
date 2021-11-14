@@ -1,0 +1,29 @@
+.displayHeader{
+    padding: 17px 37px;
+    width: 1366px;
+    height: 60px; 
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 10px 20px #00000029;
+    position: absolute;
+    top: 0;
+}
+
+.navItems{
+    list-style: none;
+    display: flex;
+    position: relative;
+    right: 139px;
+}
+
+.items{
+    padding: 20px;
+    color: #CBD0D3;
+    font-size: 18px;
+}
+
+.logo{
+    margin-left: 135px;
+}

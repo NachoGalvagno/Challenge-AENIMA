@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Banner from '../components/Banner/Banner'
+import BannerMobile from '../components/Banner/BannerMobile'
 import Blog from '../components/Blog/Blog'
 import Footer from '../components/Footer/Footer'
-import Header from '../components/Header/Header'
+import HeaderMobile from '../components/Header/HeaderMobile'
 import Tendencias from '../components/Tendencias/Tendencias'
 
 export default function Home() {
@@ -14,8 +14,8 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div className="container-mobile">
-          <Header/>
-          <Banner/> 
+          <HeaderMobile/>
+          <BannerMobile/>
           <Tendencias/>
           <Blog/>
           <Footer/>

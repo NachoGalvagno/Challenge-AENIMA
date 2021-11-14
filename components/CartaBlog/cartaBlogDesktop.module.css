@@ -1,0 +1,44 @@
+.cartaBlog{
+    width: 100%;
+    height: 429px;
+    border-radius: 10px;
+    margin-top: -100px;
+}
+
+.titulo{
+    position: relative;
+    left: 36px;
+    top: 39px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.subtitulo{
+    position: relative;
+    left: 40px; 
+    top: 280px;
+    margin: 0;
+    font-size: 22px ;
+    color: white;
+}
+
+.textoReloj{
+    color: #CBD0D3;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.reloj{
+    position: relative;
+    top: 280px;
+    left: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.displayGeneral{
+    display: flex;
+    margin: 0 150px;
+}

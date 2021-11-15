@@ -1,7 +1,7 @@
 .displayHeader{
     padding: 17px 37px;
     width: 1366px;
-    height: 60px; 
+    height: 60px;  
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -26,4 +26,8 @@
 
 .logo{
     margin-left: 135px;
+}
+
+.click{
+    color: black;
 }

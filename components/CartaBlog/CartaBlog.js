@@ -10,7 +10,7 @@ export default function CartaBlog(){
             reloj : 'Hace 2m'
         },
         {
-            url : "/Assets/img/articulo_big_02.png",
+            url : "/Assets/img/aventura.png",
             titulo : 'AVENTURA',
             subtitulo : 'Artículo de bosque',
             reloj : 'Hace 15m'

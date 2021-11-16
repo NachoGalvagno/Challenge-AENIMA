@@ -36,6 +36,8 @@
     margin: 0;
     text-align: left;
     width: 240px;
+    position: relative;
+    left: -33px;
 }
 
 .imagenVideo{

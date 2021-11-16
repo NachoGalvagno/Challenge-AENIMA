@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function BurgerMenu(){
-    const [current,setCurrent] = useState("none");
+    const [current,setCurrent] = useState("none"); 
     
     const toggleMenu = () =>{
         setCurrent(current === "none" ? "block" : "none");
@@ -20,7 +20,7 @@ export default function BurgerMenu(){
                             {`
                                 ul{
                                     width: 217px;
-                                    height: 100vh;
+                                    height: 76.5vh;
                                     z-index: 100;
                                     background-color: white;
                                     list-style: none;

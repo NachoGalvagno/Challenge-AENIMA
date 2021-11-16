@@ -15,9 +15,9 @@ export default function BannerDesktop(){
             <div className={style.imagenVideo}>
                 <Image src='/Assets/iconos/nav-slider-desktop.png' alt='nav-slider' width={189} height={60}></Image>
             </div>
-            <div className={style.cuadroPromocion}>
+            <div className={style.cuadroPromocion}> 
                 <div className={style.flex}>
-                    <p className={style.titulo}>PROXIMA AVENTURA</p>
+                    <p className={style.titulo}>PRÓXIMA AVENTURA</p>
                     <Image src='/Assets/iconos/arrow.png' alt='arrow' width={6} height={10}></Image>
                 </div>
                 <p className={style.subtitulo}>Europa Meridional</p>

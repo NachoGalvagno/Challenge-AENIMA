@@ -14,5 +14,5 @@ export default function BannerMobile(){
                 <Image src='/Assets/iconos/Nav_slider.png' alt='nav-slider' width={87} height={50}></Image>
             </div>
         </div>
-    )
+    ) 
 } 

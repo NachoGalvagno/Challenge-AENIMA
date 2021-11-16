@@ -7,10 +7,12 @@
     list-style: none;
 }
 
-.itemsBurger{
+.itemsBurger{ 
     padding: 10px;
     font-size: 18px;
     font-weight: 600;
+    color: #2A3037;
+    cursor: pointer;
 }
 
 .crossBtn{

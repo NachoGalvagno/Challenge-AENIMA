@@ -23,14 +23,14 @@
 }
 
 .titulo{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     position: relative;
     top: -15px;
 }
 
 .subtitulo{
-    font-size: 13px;
+    font-size: 12px;
     position: relative;
     top: -30px;
 }
@@ -44,7 +44,7 @@
     border-radius: 5px;
     position: relative;
     top: -25px;
-    left: -5px;
+    left: 15px;
     font-size: 12px;
     font-weight: bold;
     margin: 0;
